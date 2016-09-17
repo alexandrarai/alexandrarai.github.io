@@ -30,27 +30,25 @@ permalink: /about/
   <p style="text-align: {{ alignment }}">{{ content }}</p>
   {% endfor%}
 
-  <div class="carosouel">
-    <div><img data-lazy="assets/img/portfolio/collage01.jpg"/></div>
-    <div><img data-lazy="assets/img/portfolio/collage02.jpg"/></div>
-    <div><img data-lazy="assets/img/portfolio/collage03.jpg"/></div>
-    <div><img data-lazy="assets/img/portfolio/collage04.jpg"/></div>
-  </div>
-
-  <script>
-    $('.carosouel').slick({
-      lazyLoad: 'ondemand',
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      dots: true,
-      infinite: true,
-      speed: 300,
-      centerMode: true,
-      variableWidth: true
-    });
-  </script>
-
-
 </div>
 
+<div class="carosouel">
+  <div><img data-lazy="assets/img/portfolio/collage01.jpg"/></div>
+  <div><img data-lazy="assets/img/portfolio/collage02.jpg"/></div>
+  <div><img data-lazy="assets/img/portfolio/collage03.jpg"/></div>
+  <div><img data-lazy="assets/img/portfolio/collage04.jpg"/></div>
+</div>
+
+<script>
+  $('.carosouel').slick({
+    lazyLoad: 'ondemand',
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    dots: true,
+    infinite: true,
+    speed: 300,
+    centerMode: true,
+    variableWidth: true
+  });
+</script>
 
