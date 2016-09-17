@@ -528,3 +528,9 @@ img {
     padding-top: 0;
   }
 }
+
+/* about */
+.slick-prev:before, .slick-next:before { 
+    color:red !important;
+}
+
