@@ -28,7 +28,7 @@ blockquote:before,
 blockquote:after {
   content: '';
   position: absolute;
-  background-color: #6599ff;
+  background-color: ##009258;
   width: 80%;
   height: 3px;
 }
@@ -92,7 +92,7 @@ img {
 
 .link-1 {
   padding: 2px;
-  color: #6599ff;
+  color: ##009258;
   text-decoration: none;
   -webkit-transition: background-color .7s;
   -moz-transition: background-color .7s;
@@ -346,7 +346,7 @@ img {
 }
 
 .post-archive-title.checked:before {
-  background-color: #6599ff;
+  background-color: ##009258;
 }
 
 /* post */
@@ -383,7 +383,7 @@ img {
 .post-nav-previous,
 .post-nav-next {
   display: inline-block;
-  color: #6599ff;
+  color: ##009258;
   text-decoration: none;
 }
 
@@ -446,7 +446,7 @@ img {
 }
 
 .post-content a {
-  color: #6599ff;
+  color: ##009258;
   text-decoration: none;
   -webkit-transition: border .5s;
   -moz-transition: border .5s;
