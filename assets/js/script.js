@@ -22,16 +22,6 @@ $(document).ready(function() {
     }
   }
 
-  $('.carosouel').slick({
-    lazyLoad: 'ondemand',
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    dots: true,
-    infinite: true,
-    speed: 300,
-    centerMode: true,
-    variableWidth: true
-  });
 
   // insert caption for post imgs
   var caption = "";
