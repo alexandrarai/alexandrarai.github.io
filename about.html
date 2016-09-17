@@ -30,14 +30,16 @@ permalink: /about/
   <p style="text-align: {{ alignment }}">{{ content }}</p>
   {% endfor%}
 
+  <div class="carosouel">
+    <div><img data-lazy="../assets/img/portfolio/collage01.jpg"/></div>
+    <div><img data-lazy="../assets/img/portfolio/collage02.jpg"/></div>
+    <div><img data-lazy="../assets/img/portfolio/collage03.jpg"/></div>
+    <div><img data-lazy="../assets/img/portfolio/collage04.jpg"/></div>
+  </div>
+
 </div>
 
-<div class="carosouel">
-  <div><img data-lazy="assets/img/portfolio/collage01.jpg"/></div>
-  <div><img data-lazy="assets/img/portfolio/collage02.jpg"/></div>
-  <div><img data-lazy="assets/img/portfolio/collage03.jpg"/></div>
-  <div><img data-lazy="assets/img/portfolio/collage04.jpg"/></div>
-</div>
+
 
 <script>
   $('.carosouel').slick({
