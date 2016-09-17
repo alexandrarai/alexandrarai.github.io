@@ -48,4 +48,13 @@ $(document).ready(function() {
       }
     });
   }
+
+  $('.carosouel').slick({
+    lazyLoad: 'progressive',
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    dots: true
+  });
+  
 });
