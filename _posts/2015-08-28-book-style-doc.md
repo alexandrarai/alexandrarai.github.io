@@ -4,6 +4,7 @@ title: Book Style
 date: 2015-08-28
 tags: english
 category: blog
+published: true
 ---
 
 Three Colors for Heading 2
