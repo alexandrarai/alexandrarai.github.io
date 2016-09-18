@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Australia Was Amazing!
-date: {}
+date: 2015-08-28
 tags: english
 category: blog
 published: true
