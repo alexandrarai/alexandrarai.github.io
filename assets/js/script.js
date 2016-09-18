@@ -51,6 +51,9 @@ $(document).ready(function() {
 
   $('.carosouel').slick({
     lazyLoad: 'progressive',
+    accessibility: true,
+    centerMode: true,
+    centerPadding: '10px',
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
