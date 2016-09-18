@@ -54,6 +54,7 @@ $(document).ready(function() {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
+    arrows: true,
     dots: true
   });
   
