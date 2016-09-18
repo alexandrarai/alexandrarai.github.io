@@ -129,7 +129,7 @@ img {
 .page-container {
   position: relative;
   padding-top: 55px;
-  width: 66%;
+  width: 66% !important;
   font-family: "Titillium Web", sans-serif;
   letter-spacing: .09em;
 }
