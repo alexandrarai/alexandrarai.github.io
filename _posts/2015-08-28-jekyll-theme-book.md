@@ -1,9 +1,10 @@
 ---
 layout: post
-title: A Jekyll Theme Named Book
-date: 2015-08-28
+title: Australia Was Amazing!
+date: {}
 tags: english
 category: blog
+published: true
 ---
 
 Simple is better, but many themes are over designed. So, [Book](https://github.com/kkninjae/book) is built.
@@ -20,12 +21,12 @@ Get started
 Customize
 ---------
 
-### _config.yml file
+## _config.yml file
 
 * title: site name
 * description: site description
 * url: site url
-* avatar: absolute path of avatar which is a picture (140px * 140px) on the index page.
+* avatar: **absolute** path of avatar which is a picture (140px * 140px) on the index page.
 * favicon: absolute path of site favicon
 * google_analytics: id for google analystics
 * disqus_shortname: shortname of disque comment system
@@ -33,7 +34,7 @@ Customize
   you can write more than one paragraph but the format should be like the original one.
   the special word `?link?` will be replaced by one of the links which are listed under links.
 
-### warning
+#### warning
 
 Please do not delete the first two lines of style.css file.
 
